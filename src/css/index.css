@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --back : linear-gradient(to right, rgba(236,240,246,1) 50%, rgba(236,240,246,1) 50%);
+  --backs:linear-gradient(to right, rgba(102,77,229,1) 50%, rgba(236,240,246,1) 50%);
+  --border:1px solid rgba(236,240,246,1);
+}

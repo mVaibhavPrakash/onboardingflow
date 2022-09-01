@@ -1,0 +1,39 @@
+.logo{
+    width:36vw;
+    margin: 0 auto;
+    text-align:center;
+    font-size:40px;
+    font-weight:550;
+    margin-top:100px;
+}
+
+.logo img{
+    height:40px;
+}
+
+@media screen and (max-width:1800px) {
+    .logo{
+      width:45vw;
+    }
+}
+@media screen and (max-width:1430px) {
+  .logo{
+    width:50vw;
+  }
+}
+@media screen and (max-width:900px) {
+  .logo{
+    width:60vw;
+  }
+}
+@media screen and (max-width:600px) {
+  .logo{
+    width:80vw;
+  }
+}
+@media screen and (max-width:400px) {
+  .logo{
+    width:90vw;
+  }
+}
+

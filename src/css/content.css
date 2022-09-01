@@ -1,0 +1,91 @@
+.content{
+    margin-top:50px ;
+    color: black;
+    display: none;
+}
+
+.contentActive{
+    display: block;
+}
+
+.title{
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(21,27,40,255);
+    font-size: 2.5rem;
+}
+
+.tick{
+    width: 60px;
+    margin: 0 auto;
+}
+
+.tick li{
+    display: inline-block;
+    width:75px;
+    height: 75px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    list-style: none;
+    line-height: 75px;
+    margin-top:70px;
+    margin-bottom: 30px;
+    background-color: rgba(102,77,229,1);
+}
+
+.desc{
+    font-size: 1rem;
+    width: 36vw;
+    margin: 0 auto;
+    margin-top: 8px;
+    color: rgba(156,164,180,255);
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 550;
+}
+
+@media screen and (max-width:1800px) {
+    .desc{
+      width:45vw;
+    }
+}
+@media screen and (max-width:1430px) {
+    .desc{
+        width: 50vw;
+    }
+    .title{
+        text-align: center;
+        width: 60vw;
+    }
+}@media screen and (max-width:900px) {
+    .desc{
+        width: 60vw;
+    }
+    .title{
+      width:70vw;
+    }
+  }
+@media screen and (max-width:600px) {
+    .title{
+        text-align: start;
+        width: 80vw;
+    }
+    .desc{
+        text-align: start;
+        width:80vw;
+    }
+}
+@media screen and (max-width:400px) {
+    .title{
+    width: 90vw;
+}
+    .desc{
+        text-align: start;
+        width:90vw;
+    }
+}
